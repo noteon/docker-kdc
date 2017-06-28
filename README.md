@@ -267,3 +267,6 @@ This script was inspired by some work of a co-worker of mine, Matthias Veit. Mat
 #Author
 
 * [Till Toenshoff](https://github.com/tillt) ([@ttoenshoff](https://twitter.com/ttoenshoff))
+
+
+mongod --port 27040 --smallfiles --dbpath=/mnt/mongodb/mongodbEntKrb --auth --setParameter authenticationMechanisms=GSSAPI
