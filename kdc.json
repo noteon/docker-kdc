@@ -1,20 +1,20 @@
 {
   "principals": [
     {
-      "id": "admin/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
+      "id": "admin@MONGOBOOSTER.COM",
       "password": "admin"
     },
     {
-      "id":"mongodb/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
+      "id":"mongodb@MONGOBOOSTER.COM",
       "password":"mongodb"
     },
     {
-      "id": "qinghai/lab.mongobooster.com@LAB.MONGOBOOSTR.COM",
+      "id": "qinghai@MONGOBOOSTR.COM",
       "password": "qinghai"
     }
   ],
   "domain": "lab.mongobooster.com",
-  "realm": "LAB.MONGOBOOSTER.COM",
+  "realm": "MONGOBOOSTER.COM",
   "ip": "127.0.0.1",
   "port": 48088
 }
