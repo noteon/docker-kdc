@@ -1,20 +1,20 @@
 {
   "principals": [
     {
-      "id": "admin/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
+      "id": "admin/qhmongo-VirtualBox@MONGOBOOSTER.COM",
       "password": "admin"
     },
     {
-      "id":"mongodb/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
+      "id":"mongodb/qhmongo-VirtualBox@MONGOBOOSTER.COM",
       "password":"mongodb"
     },
     {
-      "id": "qinghai/lab.mongobooster.com@LAB.MONGOBOOSTR.COM",
+      "id": "qinghai/qhmongo-VirtualBox@MONGOBOOSTR.COM",
       "password": "qinghai"
     }
   ],
-  "domain": "lab.mongobooster.com",
-  "realm": "LAB.MONGOBOOSTER.COM",
+  "domain": "qhmongo-VirtualBox",
+  "realm": "MONGOBOOSTER.COM",
   "ip": "127.0.0.1",
   "port": 88
 }
