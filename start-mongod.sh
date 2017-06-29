@@ -1,4 +1,4 @@
-env KRB5_KTNAME=/home/qinghai/MyWorkspace/docker-kdc/krb5.keytab \
+env KRB5_KTNAME=/home/qinghai/MyWorkSpace/docker-kdc/krb5.keytab \
 /usr/bin/mongod \
 --port 27040 \
 --smallfiles \

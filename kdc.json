@@ -1,19 +1,19 @@
 {
   "principals": [
     {
-      "id": "admin/qhmongo-VirtualBox@MONGOBOOSTER.COM",
+      "id": "admin/qhmongo-virtualbox@MONGOBOOSTER.COM",
       "password": "admin"
     },
     {
-      "id":"mongodb/qhmongo-VirtualBox@MONGOBOOSTER.COM",
+      "id":"mongodb/qhmongo-virtualbox@MONGOBOOSTER.COM",
       "password":"mongodb"
     },
     {
-      "id": "qinghai/qhmongo-VirtualBox@MONGOBOOSTR.COM",
+      "id": "qinghai/qhmongo-virtualbox@MONGOBOOSTR.COM",
       "password": "qinghai"
     }
   ],
-  "domain": "qhmongo-VirtualBox",
+  "domain": "qhmongo-virtualbox",
   "realm": "MONGOBOOSTER.COM",
   "ip": "127.0.0.1",
   "port": 88
