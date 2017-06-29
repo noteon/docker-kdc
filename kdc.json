@@ -14,12 +14,7 @@
     }
   ],
   "domain": "lab.mongobooster.com",
-<<<<<<< HEAD
   "realm": "LAB.MONGOBOOSTER.COM",
   "ip": "54.248.228.239",
-=======
-  "realm": "MONGOBOOSTER.COM",
-  "ip": "lab.mongobooster.com",
->>>>>>> 46453a50b9a2eee2d57123fc0a019a7969451f85
   "port": 88
 }
