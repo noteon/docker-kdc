@@ -1,6 +1,14 @@
 docker-kdc
 ==========
 
+# for test (windows)
+
+Download
+
+http://web.mit.edu/kerberos/dist/#kfw-3.2
+
+注意，kerberos的kdc服务器需要在client-side配置，编辑 c:\windows\krb5.ini
+
 Docker container generator for a Heimdal Kerberos 5 KDC.
 
 The intension here is to ease the first steps with Kerberos while also allowing a customized, automated setup for development or test integration. Usable on plain Linux as well as on OSX.
@@ -267,3 +275,6 @@ This script was inspired by some work of a co-worker of mine, Matthias Veit. Mat
 #Author
 
 * [Till Toenshoff](https://github.com/tillt) ([@ttoenshoff](https://twitter.com/ttoenshoff))
+
+
+mongod --port 27040 --smallfiles --dbpath=/mnt/mongodb/mongodbEntKrb --auth --setParameter authenticationMechanisms=GSSAPI
