@@ -1,13 +1,16 @@
 docker-kdc
 ==========
 
-# for test (windows)
+# requirement
+  hostname qhmongo-virtualbox (change it)
+  1. start-mongod-noauth.sh
+  2. addUser.js
+  3. start-mongod.sh
+
+
+# for test
 
 Download
-
-http://web.mit.edu/kerberos/dist/#kfw-3.2
-
-注意，kerberos的kdc服务器需要在client-side配置，编辑 c:\windows\krb5.ini
 
 Docker container generator for a Heimdal Kerberos 5 KDC.
 
