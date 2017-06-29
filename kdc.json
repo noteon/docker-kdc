@@ -1,15 +1,15 @@
 {
   "principals": [
     {
-      "id": "admin@MONGOBOOSTER.COM",
+      "id": "admin/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
       "password": "admin"
     },
     {
-      "id":"mongodb@MONGOBOOSTER.COM",
+      "id":"mongodb/lab.mongobooster.com@LAB.MONGOBOOSTER.COM",
       "password":"mongodb"
     },
     {
-      "id": "qinghai@MONGOBOOSTR.COM",
+      "id": "qinghai/lab.mongobooster.com@LAB.MONGOBOOSTR.COM",
       "password": "qinghai"
     }
   ],
