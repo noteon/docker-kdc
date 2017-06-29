@@ -2,6 +2,7 @@ docker-kdc
 ==========
 
 # requirement
+  注，只在ubuntu下测试成功，windows && mac都失败了
   hostname qhmongo-virtualbox (change it)
   1. start-mongod-noauth.sh
   2. addUser.js
