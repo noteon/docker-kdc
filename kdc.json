@@ -15,6 +15,6 @@
   ],
   "domain": "lab.mongobooster.com",
   "realm": "MONGOBOOSTER.COM",
-  "ip": "127.0.0.1",
-  "port": 48088
+  "ip": "lab.mongobooster.com",
+  "port": 88
 }
