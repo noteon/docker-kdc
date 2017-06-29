@@ -1,7 +1,7 @@
-env KRB5_KTNAME=/home/qinghai/MyWorkSpace/docker-kdc/krb5.keytab \
+env KRB5_KTNAME=/home/ubuntu/git-projects/docker-kdc/krb5.keytab \
 /usr/bin/mongod \
 --port 27040 \
 --smallfiles \
---dbpath=$HOME/data/mongodb \
- --auth \
+--dbpath=/mnt/mongodb/mongodbEntKrb \
+--auth \
 --setParameter authenticationMechanisms=GSSAPI \
