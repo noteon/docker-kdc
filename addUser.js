@@ -1,7 +1,7 @@
 use $external
 db.createUser(
    {
-     user: "mongodb/qhmongo-virtualbox@MONGOBOOSTER.COM",
+     user: "mongodb/lab.mongobooster.com@MONGOBOOSTER.COM",
      roles: [
 				{ role: "clusterAdmin", db: "admin" },
                 { role: "readWriteAnyDatabase", db: "admin" },
