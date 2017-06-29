@@ -1,4 +1,4 @@
 env KRB5_KTNAME=/home/qinghai/MyWorkspace/docker-kdc/krb5.keytab \
 /usr/bin/mongod \
 --port 27040 \
- --dbpath=/data/mongodb
+ --dbpath=$HOME/data/mongodb
