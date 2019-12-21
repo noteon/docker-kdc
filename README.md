@@ -1,7 +1,28 @@
 docker-kdc
 ==========
 
+# fast start
+sudo apt-get install jq
+
+#for KDC lab
+KDC_CONFIG=samples/kdc_lab.json ./kdc build  #refer to https://github.com/tillt/docker-kdc/issues/6
+KDC_CONFIG=samples/kdc_lab.json ./kdc start
+./kdc test
+
+kinit qinghai/lab.mongobooster.com@LAB.MONGOBOOSTER.COM
+kinit mongodb/lab.mongobooster.com@LAB.MONGOBOOSTER.COM
+
+
+#for KDC sg
+KDC_CONFIG=samples/kdc_sg.json ./kdc build  #refer to https://github.com/tillt/docker-kdc/issues/6
+KDC_CONFIG=samples/kdc_sg.json ./kdc start
+./kdc test
+
+kinit qinghai/sg.mongobooster.com@SG.MONGOBOOSTER.COM
+kinit mongodb/sg.mongobooster.com@SG.MONGOBOOSTER.COM
+
 # requirement
+
   hostname qhmongo-virtualbox (change it)
   1. start-mongod-noauth.sh
   2. addUser.js
