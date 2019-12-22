@@ -1,7 +1,7 @@
 docker-kdc
 ==========
 
-# fast start
+# fast start KDS Server
 sudo apt-get install jq
 
 #for KDC lab
@@ -21,11 +21,12 @@ KDC_CONFIG=samples/kdc_sg.json ./kdc start
 kinit qinghai/sg.mongobooster.com@SG.MONGOBOOSTER.COM
 kinit mongodb/sg.mongobooster.com@SG.MONGOBOOSTER.COM
 
+# fast start MongoDB
+
 # requirement
 
-  hostname qhmongo-virtualbox (change it)
   1. start-mongod-noauth.sh
-  2. addUser.js
+  2. addUser.js  (connect in nosqlbooster and run script)
   3. start-mongod.sh
 
 

@@ -1,7 +1,10 @@
-env KRB5_KTNAME=/home/qinghai/MyWorkSpace/docker-kdc/krb5.keytab \
+sudo apt-get install  libsasl2-modules libsasl2-modules-gssapi-mit
+
+env KRB5_KTNAME=/home/ubuntu/docker-kdc/krb5.keytab \
+KRB5_TRACE=/logs/mongodb-kerberos.log \
 /usr/bin/mongod \
 --port 27040 \
---smallfiles \
---dbpath=$HOME/data/mongodb \
- --auth \
+--bind_ip_all \
+--dbpath=$HOME/data/mongodb  \
+--auth \
 --setParameter authenticationMechanisms=GSSAPI \
