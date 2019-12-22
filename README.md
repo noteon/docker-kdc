@@ -23,6 +23,7 @@ $(./kdc shellinit)
 kinit qinghai/sg.mongobooster.com@SG.MONGOBOOSTER.COM
 kinit mongodb/sg.mongobooster.com@SG.MONGOBOOSTER.COM
 
+kinit mongodb/sh.mongobooster.com@SH.MONGOBOOSTER.COM
 # fast start MongoDB
 
 # requirement
