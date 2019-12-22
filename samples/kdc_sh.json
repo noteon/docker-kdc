@@ -1,0 +1,20 @@
+{
+  "principals": [
+    {
+      "id": "qinghai/sh.mongobooster.com@SH.MONGOBOOSTER.COM",
+      "password": "qinghai"
+    },
+    {
+      "id":"mongodb/sh.mongobooster.com@SH.MONGOBOOSTER.COM",
+      "password":"mongodb"
+    },   
+    {
+      "id": "qinghai@SH.MONGOBOOSTER.COM",
+      "password": "qinghai"
+    }
+  ],
+  "domain": "sh.mongobooster.com",
+  "realm": "sh.MONGOBOOSTER.COM",
+  "ip": "127.0.0.1",
+  "port": 48088
+}
