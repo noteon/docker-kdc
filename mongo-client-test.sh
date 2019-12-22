@@ -20,3 +20,5 @@ mongo --host sg.mongobooster.com --port 27040 \
 //or mongoshell
 use $external
 db.auth( { mechanism: "GSSAPI", user: "mongodb/sg.mongobooster.com@SG.MONGOBOOSTER.COM" , password:"mongodb"} )
+
+db.auth( { mechanism: "GSSAPI", user: "mongodb/lab.mongobooster.com@LAB.MONGOBOOSTER.COM" , password:"mongodb"} )

@@ -8,3 +8,9 @@ KRB5_TRACE=/logs/mongodb-kerberos.log \
 --dbpath=$HOME/data/mongodb  \
 --auth \
 --setParameter authenticationMechanisms=GSSAPI \
+--wiredTigerCacheSizeGB 0.3 \
+--logpath=$HOME/data/mongodb/mongod.log \
+--fork \
+
+
+
